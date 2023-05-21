@@ -1,0 +1,15 @@
+{
+  "name": "encriptador-de-texto",
+  "version": "1.0.0",
+  "description": "Encriptador de texto",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "encriptador",
+    "front-end"
+  ],
+  "author": "Jorge Garibay",
+  "license": "ISC"
+}

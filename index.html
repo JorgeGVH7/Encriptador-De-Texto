@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="imagenes/iconfinder-lock-4341303_120563.png">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/Frame 6.png" alt="logo de alura">
+    </header>
+    <main>
+        <section class="izquierda">
+            <textarea class="text-area" cols="48" rows="3" placeholder="Ingrese el texto aqui" spellcheck="false"></textarea>
+            <div class="texto-icon">
+                <img src="imagenes/exclamacion.png" alt="exclamacion"/>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="derecha">
+            <textarea class="mensaje" cols="20" rows="3" spellcheck="false"></textarea>
+            <div class="cuadroCopiar">
+                <button class="copiar" onclick="copiar()">Copiar texto</button>
+            </div>
+            <div class="areaImagen">
+                <h3 class="texto1">Ningun mensaje fue <br>encontrado</h3>
+                <h4 class="texto2">Ingresa el texto que desees <br>encriptar o desencriptar</h4> 
+        </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>
